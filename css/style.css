@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+	body {		
+		min-width: 1200px;
+		width: 100%;
+	}
+	.m-w {
+		min-width: 1200px;		
+	}
+	.pannel {
+		position: relative;		
+	}
+	.auto {
+		margin: 0 auto;
+	}
+	.p1 {
+		background: url(../images/kilian4.jpg) no-repeat;
+		background-size: cover;		
+		background-attachment: fixed;
+		height: 280px;
+		width: 100%;
+		display: flex;
+	}
+	.logo {
+		position: absolute;
+		top: 10px;
+		left: 508px;
+		z-index: 2;
+	}
+	.topnav {
+		background-color: aliceblue;
+		opacity: 0.7;
+		margin-top: 190px;
+	}
+	nav ul{
+		margin: 0 38px;
+		list-style: none;
+	}
+	nav li{
+		float: left;
+		padding: 15px 35px;		
+		text-shadow: 2px 2px 2px #bbb;
+	}
+	nav li:nth-child(4) {
+		margin-left: 290px;
+	}
+	nav li a {
+		color: rgba(54,39,7,1.00);
+		font-family: 'Pacifico', cursive;
+		font-size: 1.2rem;
+		text-decoration: none;
+	}
+	nav li:hover {
+		  animation-name: pulse;
+	}
+	.bc {
+		background-color:antiquewhite;
+	}
+	.wrap {
+		padding: 100px;
+		width: 1100px;
+		box-sizing: border-box;
+	}
+	.fl	{
+		float: left;
+	}
+	.fr {
+		float: right;
+	}
+	.textframe {
+		border: 5px solid #DD9B59;
+		width: 10rem;
+		height: 28rem; 
+		text-align: center;
+		padding-top: 6rem;
+	}
+	.ff {
+		font-family: "cwTeXFangSong", serif;
+		font-size: 3rem;
+		-webkit-writing-mode: vertical-rl;
+		writing-mode: vertical-rl;
+		color: darkolivegreen;
+		transition: 0.8s ease-in-out;
+	}
+	.ff:hover {		
+		font-size: 5rem;
+		color: #EC963F;
+		-webkit-writing-mode: vertical-rl;
+		writing-mode: vertical-rl;
+	}
+	.content-r {
+		text-align: right;
+		width: 55%;
+		font-size: 1.5rem;
+		line-height: 3.5rem;
+		text-indent: 3.5rem;
+		font-family:"cwTeXFangSong", serif;
+	}
+	.pic:hover {
+		animation-name: tada;
+	}
+	.decoline {
+		border-top: solid 4px #404d5b;
+		width: 2rem;
+	}
+	.pagename {
+		font-size: 2em;
+		font-family: 'Pacifico', cursive;
+		line-height: 3em;		
+		color: #404d5b;
+	}
+	.bkpic{
+		position: absolute;
+		opacity: 0.3;
+		top: 200px;
+		width: 30%;
+		border-radius: 50px;
+	}
+	.ab-r {
+		right: 0;		
+		top: 300px;
+	}
+	footer a{
+		padding-top: 30px;
+		color: inherit;
+	}
+	h3 {
+		line-height: 2.4em;
+	}
+	small {
+		opacity: 0.5;
+	}	
+	footer {
+		text-align: center;
+		color: burlywood;		
+		background: url(../images/kilian4.jpg) no-repeat bottom;
+		background-size: cover;
+		background-attachment: fixed;
+		text-shadow: 1px 1px 4px #000;
+	}
+	footer h1 {
+		margin-bottom: 2rem;
+	}

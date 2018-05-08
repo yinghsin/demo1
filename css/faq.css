@@ -1,0 +1,24 @@
+/* CSS Document */
+	#faqlist {
+		
+	}
+	#faqlist h5 {
+		font-size: 1.2em;
+		line-height: 2.6em;
+		color: darkolivegreen;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	}
+	#faqlist h5:hover {
+		cursor: pointer;
+	}
+	#faqlist h5:focus {
+		outline: none;
+	}
+	.faq-item {
+		padding: 30px 100px;
+	}
+	.faq-item span {
+		font-size: 0.9em;
+		line-height: 1.8em;
+		color: olive;
+	}
